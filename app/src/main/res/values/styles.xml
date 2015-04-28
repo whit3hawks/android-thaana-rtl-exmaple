@@ -1,0 +1,14 @@
+<resources>
+    <style name="AppTheme" parent="MyTheme.Base">
+    </style>
+
+    <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!--As we are using toolbar the following code hides the ActionBar-->
+        <item name="windowActionBar">false</item>
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">#ff2f2f2f</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">#ff292929</item>
+    </style>
+</resources>
